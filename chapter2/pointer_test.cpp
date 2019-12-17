@@ -18,11 +18,13 @@ int main()
 	
 	cout<<"p = "<< p<<endl;// p is a pointer hold address of ival
 	cout<<"&p = "<< &p <<endl;// address of pointer p
-	cout<<"*p = "<< *p <<endl;// get value of address in p
+	cout<<"*p = "<< *p <<endl;// yields the object to which p points
 	//& : get addr
-	//* : get value in addr
+	//* : get obj
+	*p = 3;
+	cout<< ival <<endl;// assign new val to ival through p
 
-	cout<< p2<<endl;// p2 is a pointer hold addr of ival ( same as p )
+	cout<< p2 <<endl;// p2 is a pointer hold addr of ival ( same as p )
 	cout<< &p2 <<endl;// get addr of p2
 	cout<< *p2 <<endl;//et value of address in p2
 	
