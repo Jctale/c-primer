@@ -1,6 +1,6 @@
 /*
 primer p.111 2.6 start
-
+primer p.122 2 fin
 */
 #include <iostream>
 #include <string>
