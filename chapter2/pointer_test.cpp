@@ -27,7 +27,10 @@ int main()
 	cout<< p2 <<endl;// p2 is a pointer hold addr of ival ( same as p )
 	cout<< &p2 <<endl;// get addr of p2
 	cout<< *p2 <<endl;//et value of address in p2
-	
+	int test;
+	test=*p;
+	test = 5;
+	cout<<ival;
 
 
 }
