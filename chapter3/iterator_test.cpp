@@ -9,7 +9,7 @@ int main()
 	if(s.begin() != s.end())
 	{
 		auto it = s.begin();
-		*it = toupper(*it);// get the ref. to the element
+		*it = toupper(*it);// get the ref. to the element denoted by it
 	}
 	cout<<s<<endl;
 
