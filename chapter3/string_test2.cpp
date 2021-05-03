@@ -14,9 +14,14 @@ int main()
 	//if(s1>s2) //undefined
 	if(strcmp(ca1,ca2)>0) cout<<"ca1>ca2"<<endl;
 
-	const char ca[]={'a','b'};
+	const char ca[]={'a','b','\0'};
 	const char *cp=ca;
 
+	while(*cp)
+	{
+		cout<<*cp<<endl;
+		++cp;
+	}
 
 
 }
