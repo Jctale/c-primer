@@ -14,18 +14,16 @@ int main()
 	int *p5 = &num;
 	int *p6 = &num2;
 	// pointer equality (==) compares if they hold the same address
-	if(p4 == p5)
-		cout<<"same obj"<<endl;
-	if(p4 != p6)
-		cout<<"diff obj"<<endl;
-	if(p1 == p2)
-		cout<<"eq"<<endl;
+	if (p4 == p5)
+		cout << "same obj" << endl;
+	if (p4 != p6)
+		cout << "diff obj" << endl;
+	if (p1 == p2)
+		cout << "eq" << endl;
 
 	int i = 42;
 	int *p;
-	int *&r = p;// r is a ref to pointer p 
-	
+	int *&r = p; // r is a ref to pointer p
+
 	//cout<<typeid(r).name()<<endl;
-
-
 }

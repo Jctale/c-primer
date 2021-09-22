@@ -8,5 +8,4 @@ int main()
 	cin >> book;
 	cout << book << endl;
 	return 0;
-
 }
